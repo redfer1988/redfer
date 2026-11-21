@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'none'" data-dsh-artifacts>
+<meta name="robots" content="noindex, nofollow" data-dsh-artifacts>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Публикация настроена</title>
+<style>
+  :root { color-scheme: light dark; --fg:#12161d; --bg:#f6f7f9; --muted:#5c6672; --line:#dfe3e8; --accent:#1f6feb; --ok:#1a7f37; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e8ecf1; --bg:#0f1319; --muted:#97a3b1; --line:#242c36; --accent:#4d8cf5; --ok:#3fb950; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 72px; }
+  .badge { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:600; letter-spacing:.02em; text-transform:uppercase; color:var(--ok); border:1px solid var(--line); border-radius:999px; padding:6px 14px; }
+  .dot { width:8px; height:8px; border-radius:50%; background:var(--ok); }
+  h1 { font-size:34px; line-height:1.15; margin:22px 0 10px; letter-spacing:-0.02em; }
+  p.lead { color:var(--muted); font-size:17px; margin:0 0 32px; }
+  dl { display:grid; grid-template-columns: 150px 1fr; gap:12px 18px; margin:0; padding:24px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  dt { color:var(--muted); font-size:14px; }
+  dd { margin:0; font-size:15px; }
+  code { font:13px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace; background:rgba(127,127,127,.12); padding:2px 6px; border-radius:5px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .next { margin-top:28px; color:var(--muted); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="badge"><span class="dot"></span> Связка работает</span>
+  <h1>Публикация настроена</h1>
+  <p class="lead">DSH записал эту страницу в репозиторий одним коммитом, GitHub Pages её отдал. Значит, готовый сайт можно выкладывать тем же способом — без git и без gh CLI.</p>
+  <dl>
+    <dt>Репозиторий</dt><dd><a href="https://github.com/redfer1988/redfer">redfer1988/redfer</a></dd>
+    <dt>Ветка</dt><dd><code>gh-pages</code></dd>
+    <dt>Адрес сайта</dt><dd><a href="https://redfer1988.github.io/redfer/">redfer1988.github.io/redfer</a></dd>
+    <dt>Проверка</dt><dd>21 ноября 2026</dd>
+    <dt>Обновление</dt><dd>перезапись по той же ссылке, адрес не меняется</dd>
+  </dl>
+  <p class="next">Эта страница — техническая проба. Скажите «убери пробу» — удалю её, и в репозитории останутся только ваши страницы. Скажите «опубликуй сайт» — выложу готовый сайт из папки «Сайт».</p>
+</main>
+</body>
+</html>

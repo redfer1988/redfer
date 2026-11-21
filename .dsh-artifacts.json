@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "artifacts": {
+    "artifact-c6xoa7": {
+      "id": "artifact-c6xoa7",
+      "title": "Публикация настроена",
+      "kind": "html",
+      "createdAt": "2026-11-21T13:47:15.696Z",
+      "updatedAt": "2026-11-21T13:47:15.696Z",
+      "rev": 1,
+      "files": [
+        "index.html"
+      ],
+      "description": "Тестовая страница: проверка связки DSH → GitHub Pages"
+    }
+  },
+  "tombstones": []
+}
